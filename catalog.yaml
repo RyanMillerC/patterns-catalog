@@ -30,31 +30,6 @@ patterns:
     type: Validated
     url: https://hybrid-cloud-patterns.io/patterns/multicloud-gitops/
 
-  - name: Multicluster DevSecOps
-    description: A horizontal solution for multicluster DevSecOps use cases
-    longDescription: >
-      This pattern demonstrates a horizontal solution for multicluster
-      DevSecOps use cases. It is derived from the multi-cloud GitOps pattern
-      with added products to provide a complete DevSecOps workflow. This
-      includes CI/CD pipelines with security gates; image scanning, signing and
-      storage in a secure registry; deployment to secured clusters that provide
-      advanced security monitoring and alerting.
-    branch: main
-    gitRepo: https://github.com/hybrid-cloud-patterns/multicluster-devsecops.git
-    maintainers:
-      - name: Validated Patterns Team
-        email: team-validated-patterns@redhat.com
-    products:
-      - Red Hat Advanced Cluster Management
-      - Red Hat OpenShift GitOps
-      - Red Hat OpenShift Pipelines
-      - Red Hat Quay Enterprise
-      - Red Hat Open Data Foundation
-      - Red Hat Advanced Cluster Security
-      - Hashicorp Vault
-    type: Community
-    url: https://hybrid-cloud-patterns.io/patterns/multicluster-devsecops/
-
   - name: Industrial Edge
     description: A horizontal solution for Industrial Edge use cases
     longDescription: >
